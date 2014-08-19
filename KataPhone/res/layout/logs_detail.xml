@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <RelativeLayout
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:background="#ebebeb">
+
+        <Button
+            android:id="@+id/logs_cancel_detail_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:background="@drawable/logs_back_btn"
+            android:textColor="#015abb"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Info"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/logs_edit_detail_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Edit"
+            android:background="@android:color/transparent"
+            android:textColor="#007aff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout> -->
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/logs_contact_img"
+               android:layout_width="@dimen/contact_image"
+                android:layout_height="@dimen/contact_image"
+                android:background="@drawable/profile_pic_holder2" />
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/logs_contact_img"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/logs_contact_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="No Contact Name"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/logs_comp_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="No Company Name"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/logs_number_called"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sample Text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/logs_date_called"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sample Text"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logs_time_called"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sample Text"
+            android:textSize="12dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/logs_call_number"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="Call"
+            android:textColor="#015abb"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/logs_send_msg"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="Send Message"
+            android:textColor="#015abb"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/logs_create_new_contact"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="Create New Contact"
+            android:textColor="#015abb"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/logs_add_to_contacts"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="Add to Contacs"
+            android:textColor="#015abb"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/logs_block_caller"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="Block this Caller"
+            android:textColor="#015abb"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/keypad_dialogbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbtn_top_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/create_new_contact_string"
+        android:textColor="@color/phoneapp_blue"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/keypad_dialogbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/roundedbtn_bottom_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/addto_existing_contact_string"
+        android:textColor="@color/phoneapp_blue"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/keypad_dialogbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundedbtn_allsides_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cancel"
+        android:textColor="@color/phoneapp_blue"
+        android:textSize="@dimen/dialog_text_size" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numberspinner">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Main</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

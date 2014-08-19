@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7f4"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/logs_actionbar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/White" >
+
+        <Button
+            android:id="@+id/logs_clear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/menubtn_selector"
+            android:text="@string/clear_string"
+            android:textColor="@color/phoneapp_blue" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/all"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                
+                android:background="@drawable/leftselected"
+                android:text="@string/all_string"
+                android:textColor="#FFFF"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/missed"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                
+                android:background="@drawable/right_btn"
+                android:text="@string/missed_string"
+                android:textColor="#007aff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logs_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/menubtn_selector"
+            android:text="@string/edit_string"
+            android:textColor="@color/phoneapp_blue" />
+    </RelativeLayout>
+    <!--
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/White"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/logs_clear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:text="@string/clear_string"
+            android:textColor="@color/phoneapp_blue"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/all"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/leftselected"
+                android:text="@string/all_string"
+                android:textColor="#FFFF"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/missed"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/right_btn"
+                android:text="@string/missed_string"
+                android:textColor="#007aff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logs_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:text="Edit"
+            android:textColor="@color/phoneapp_blue" />
+    </RelativeLayout>
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/logs_list"
+            style="@style/ContactListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- <TextView android:id="@id/android:empty" -->
+        <!-- android:gravity="center_horizontal" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:text="No Call Logs Found" -->
+        <!-- android:fontFamily="sans-serif-light" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceLarge"/> -->
+
+    </FrameLayout>
+
+</LinearLayout>

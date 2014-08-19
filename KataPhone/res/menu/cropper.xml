@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.katadigital.phone.CropperActivity" >
+
+    <item
+        android:id="@+id/getfromgallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="ifRoom"
+        android:title="Take From Gallery"/>
+    <item
+        android:id="@+id/getfromcamera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:showAsAction="ifRoom"
+        android:title="Take From Camera"/>
+
+</menu>

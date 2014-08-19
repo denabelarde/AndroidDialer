@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favor_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/favor_delete_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logs_item_imageview"
+        android:layout_width="@dimen/favor_image_size"
+        android:layout_height="@dimen/favor_image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/profile_pic_holder2" />
+
+    <LinearLayout
+        android:id="@+id/linear_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/favor_item_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/logs_item_description"
+            android:layout_toRightOf="@+id/logs_item_imageview"
+            android:padding="10dp"
+            android:text="Testing"
+            android:textSize="@dimen/contactlist_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/favor_number_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/favor_item_info_btn"
+            android:padding="10dp"
+            android:text="Mobile"
+            android:textSize="@dimen/contactlist_subtext_size" />
+
+        <Button
+            android:id="@+id/favor_item_info_btn"
+            android:layout_width="@dimen/info_btn_size"
+            android:layout_height="@dimen/info_btn_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/info_btn"
+            android:text="i"
+            android:textColor="#007aff" />
+    </RelativeLayout>
+
+</LinearLayout>

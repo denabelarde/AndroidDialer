@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="btn_two_text"><font size="50">2</font>&#10;abc</string>
+
+    <!-- <string name="app_name">ListViewSearchView</string> -->
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search Names</string>
+    <string name="add_contact_activity">All Contacts</string>
+    <string name="edit_contact_activity">Cancel</string>
+    <string name="contact_detail_activity">ContactDetailActivity</string>
+    <string name="contacts_activity">All Contacts</string>
+    <string name="add_contact">+</string>
+    <string name="add_to_contacts">+ Add to Contacts</string>
+    <string name="done_string">Done</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="call_string">Call</string>
+    <string name="first_string">First</string>
+    <string name="last_string">Last</string>
+    <string name="Company_string">Company</string>
+    <string name="add_phone_string">add phone</string>
+    <string name="add_email_string">add email</string>
+    <string name="add_address_string">add address</string>
+    <string name="add_birthday_string">add birthday</string>
+    <string name="add_note_string">add note</string>
+    <string name="edit_string">Edit</string>
+    <string name="clear_string">Clear</string>
+    <string name="all_string">all</string>
+    <string name="missed_string">missed</string>
+    <string name="title_activity_cropper">CropperActivity</string>
+    <string name="rotate">Rotate image</string>
+    <string name="crop">Crop Image</string>
+    <string name="set_photo">Select Photo</string>
+    <string name="favorites_string">Favorites</string>
+    <string name="info_string">Info</string>
+    <string name="katadigital_maindirectory">/Katadigital/</string>
+    <string name="kata_image_directory">/Katadigital/dialerimages/</string>
+    <!-- for cross screen values -->
+    <string name="keypad_weight">4</string>
+    <string name="numbertype_string">Number Type</string>
+    <string name="number_string">Number</string>
+    <string name="title_activity_logs_detail_existing">Recents</string>
+    <string name="delete_btn_size">50</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="add_to_favorites_caption">Choose a contact to add to Favorites</string>
+    <string name="add_num_to_contacts">Choose a contact to add this number:</string>
+    <string name="title_activity_add_number_to_contact">Add Number to Contact</string>
+    <string name="create_new_contact_string">Create New Contact</string>
+    <string name="addto_existing_contact_string">Add to Existing Contact</string>
+    
+    <string name="block_caller_string">Block this Caller</string>
+    <string name="unblock_caller_string">Unblock this Caller</string>
+<string name="tabs_size">80</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Zxing Colors -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!-- Flat UI -->
+    <color name="Black">#000000</color>
+    <color name="Black80">#CC000000</color>
+    <color name="Black90">#E6000000</color>
+    <color name="MediumBlack">#80000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="White80">#CCFFFFFF</color>
+    <color name="White20">#33FFFFFF</color>
+    <color name="White50">#80FFFFFF</color>
+    <color name="DarkGray">#353535</color>
+    <color name="LightGray">#73353535</color>
+    <color name="LightGray10">#1A353535</color>
+    <color name="Turquoise">#1ABC9C</color>
+    <color name="GreenSea">#16A085</color>
+    <color name="Emerald">#2ECC71</color>
+    <color name="Nephritis">#27AE60</color>
+    <color name="PeterRiver">#3498DB</color>
+    <color name="BelizeHole">#2980B9</color>
+    <color name="Amethyst">#9B59B6</color>
+    <color name="Wisteria">#8E44AD</color>
+    <color name="WetAsphalt">#34495E</color>
+    <color name="MidnightBlue">#2C3E50</color>
+    <color name="SunFlower">#F1C40F</color>
+    <color name="Orange">#F39C12</color>
+    <color name="Carrot">#E67E22</color>
+    <color name="Pumpkin">#D35400</color>
+    <color name="Alizarin">#E74C3C</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Pomegranate">#C0392B</color>
+    <color name="Clouds">#ECF0F1</color>
+    <color name="Silver">#BDC3C7</color>
+    <color name="Concrete">#95A5A6</color>
+    <color name="Asbestos">#7F8C8D</color>
+    <color name="phoneapp_bg">#80C8C8C8</color>
+    <color name="phoneapp_blue">#007aff</color>
+  <color name="holo_light_blue">#85d3ef</color>
+ <color name="phoneapp_bg_dark">#f6f7f4</color>
+ 
+ <color name="phoneapp_line">#331F1F21</color>
+ <color name="keypadbtn_blue">#00aeef</color>
+ <color name="keypadbtn_blue_pressed">#287335</color>
+</resources>

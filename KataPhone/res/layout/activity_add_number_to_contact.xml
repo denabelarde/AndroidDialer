@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7f4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/add_to_number_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:gravity="center"
+        android:padding="5dp"
+       />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+        android:id="@+id/addnumber_searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_textfield"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:hint="@string/search_label"
+        android:imeActionLabel="Search"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/contactslv_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/add_numberlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/White"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/addnumber_sideIndex"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+    
+
+
+</LinearLayout>

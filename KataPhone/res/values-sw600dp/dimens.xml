@@ -1,0 +1,28 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="keypad_btn_size">80dp</dimen>
+    <dimen name="keypad_margin_right">12dp</dimen>
+    <dimen name="keypad_margin_top">12dp</dimen>
+    <dimen name="keypad_text_size">70sp</dimen>
+    <dimen name="keypad_text_padding_bottom">20dp</dimen>
+    <dimen name="keypad_text_letters_margin_left">40dp</dimen>
+    <dimen name="keypad_text_letters_margin_top">18dp</dimen>
+    <dimen name="keypad_text_letters_size">20sp</dimen>
+    <dimen name="v3_keypad_btn_size">60dp</dimen>
+    <dimen name="favor_image_size">60dp</dimen>
+    <dimen name="logs_image_size">25dp</dimen>
+    <dimen name="info_btn_size">30dp</dimen>
+    <dimen name="contact_image">150dp</dimen>
+    <dimen name="detail_contact_image">80dp</dimen>
+    <dimen name="keypadtxt_margintop">20dp</dimen>
+<dimen name="dialog_text_size">40sp</dimen>
+
+<dimen name="contactlist_text_size">18sp</dimen>
+<dimen name="contactlist_subtext_size">14sp</dimen>
+</resources>

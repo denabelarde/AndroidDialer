@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7f4"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/favorites_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/White"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fave_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/menubtn_selector"
+            android:text="@string/edit_string"
+            android:textColor="@color/phoneapp_blue"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/favorites_string"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RelativeLayout
+            android:id="@+id/favorites_addbtn_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/menubtn_selector"
+            android:clickable="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+            <ImageView
+                android:id="@+id/favorites_addbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/ic_add_contact" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@color/White">
+
+        <Button
+            android:id="@+id/fave_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="20dp"
+            android:textColor="#015abb"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Favorites"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/fave_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textColor="#007aff"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/favor_list"
+            style="@style/ContactListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transcriptMode="alwaysScroll" />
+
+        <!-- <TextView android:id="@id/android:empty" -->
+        <!-- android:gravity="center_horizontal" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:text="No Favorites Found" -->
+        <!-- android:fontFamily="sans-serif-light" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceLarge"/> -->
+
+    </FrameLayout>
+
+</LinearLayout>

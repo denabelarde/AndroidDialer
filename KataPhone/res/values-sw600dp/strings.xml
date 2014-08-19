@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kata Phone</string>
+    <string name="keypad_weight">5</string>
+    <string name="delete_btn_size">70</string>
+    <string name="tabs_size">110</string>
+
+</resources>

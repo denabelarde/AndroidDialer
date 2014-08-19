@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/phoneapp_bg"
+    android:orientation="vertical" >
+
+    <!-- <SearchView -->
+    <!-- android:id="@+id/search_contacts" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:queryHint="Search" -->
+    <!-- /> -->
+
+    <RelativeLayout
+        android:id="@+id/contacts_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/White"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/contacts_activity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <RelativeLayout
+            android:id="@+id/contacts_addbtn_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:background="@drawable/menubtn_selector"
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+                 android:id="@+id/contacts_addbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true" android:layout_centerVertical="true"
+                android:src="@drawable/ic_add_contact" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/search_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_textfield"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:hint="@string/search_label"
+        android:imeActionLabel="Search"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/contactslv_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/contact_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/White"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/sideIndex"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

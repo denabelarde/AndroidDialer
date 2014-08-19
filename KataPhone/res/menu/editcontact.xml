@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/edit_contact_done"
+        android:showAsAction="ifRoom"
+        android:title="@string/done_string"/>
+
+</menu>

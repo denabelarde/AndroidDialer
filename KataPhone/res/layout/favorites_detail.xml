@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6f7f4">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- <RelativeLayout
+            android:layout_height="40dp"
+            android:layout_width="fill_parent"
+            android:background="#ebebeb">
+
+            <Button
+                android:id="@+id/fave_cancel_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:background="@drawable/favorites_back_btn"
+                android:textColor="#015abb" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Info"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/fave_edit_detail_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Edit"
+                android:background="@android:color/transparent"
+                android:textColor="#007aff"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout> -->
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/fave_contact_img"
+                android:layout_height="@dimen/detail_contact_image"
+                android:layout_width="@dimen/detail_contact_image"
+                android:background="@drawable/profile_pic_holder" />
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/fave_contact_img"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/fave_contact_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Contact Name"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fave_comp_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Company Name"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/fave_number_type"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Number Type"
+                        android:textSize="15dp"
+                        android:textColor="#015abb" />
+
+                    <TextView
+                        android:id="@+id/fave_number"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Number"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/fave_detail_msg_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/message_btn"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/fave_detail_call_btn" />
+
+                <Button
+                    android:id="@+id/fave_detail_call_btn"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/call_btn" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Notes"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="0px"
+                android:layout_height="0px" />
+
+            <EditText
+                android:id="@+id/fave_notes"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:nextFocusUp="@id/fave_notes"
+                android:nextFocusLeft="@id/fave_notes" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/fave_send_msg"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="Send Message"
+                android:textColor="#015abb"
+                android:background="@android:color/transparent" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/fave_share_contact"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="Share Contact"
+                android:textColor="#015abb"
+                android:background="@android:color/transparent" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/fave_block_caller"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="Block this Caller"
+                android:textColor="#015abb"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="40dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
